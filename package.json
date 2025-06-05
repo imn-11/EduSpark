@@ -1,0 +1,36 @@
+{
+  "name": "imenapp",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "axios": "^1.9.0",
+    "expo": "~52.0.46",
+    "expo-constants": "~17.0.8",
+    "expo-linking": "~7.0.5",
+    "expo-router": "~4.0.21",
+    "expo-status-bar": "~2.0.1",
+    "lucide-react-native": "^0.487.0",
+    "react": "18.3.1",
+    "react-lorem-ipsum": "^1.4.10",
+    "react-native": "0.76.9",
+    "react-native-calendars": "^1.1264.0",
+    "react-native-gesture-handler": "~2.20.2",
+    "react-native-reanimated": "~3.16.1",
+    "react-native-safe-area-context": "4.12.0",
+    "react-native-screens": "~4.4.0",
+    "react-native-webview": "^13.12.5",
+    "react-native-youtube-iframe": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
